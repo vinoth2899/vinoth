@@ -1,0 +1,180 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: "Poppins";
+}
+.body{
+    background-color: aqua;
+    width: 100%;
+    height: 50vh;
+}
+.navimain{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navimenu{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    position: relative;
+    padding: 30px;
+}
+.naviimage{
+    width: 150px;
+    height: 100px;
+}
+.naviimage img{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+.submenu1{
+    position: absolute;
+    width: 18%;
+    display: none;
+    background-color: #d7dbdb;
+    color: #000000;
+}
+.submenu1 div{
+    padding: 10px;
+    box-sizing: border-box;
+    width:100%;
+    line-height: 20px;
+    font-size: 13px;
+    border: 2px solid white;
+    font-family:Arial, Helvetica, sans-serif ; 
+}
+.submenu1>div:hover{
+    background-color: rgb(16, 235, 206);
+}
+.SHOPHOME:hover .submenu1{
+    display: block;
+}
+.submenu2{
+    position: absolute;
+    width: 25%;
+    display: none;
+    background-color: rgb(218, 224, 226);
+    color: #010508;
+}
+.submenu2 div{
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 20px;
+    font-size: 13px;
+    border: 2px solid white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.MORE_SHOPPING_TOOLS:hover .submenu2{
+    display: block;
+}
+.submenu2>div:hover{
+    background-color: rgb(16, 235, 206);
+}
+.submenu3{
+    position: absolute;
+
+    width: 25%;
+    display: none;
+    background-color: hsl(180, 2%, 84%);
+    color: #0a0b0c;
+}
+.submenu3 div{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 20px;
+    font-size: 13px;
+    border: 2px solid white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.OWNERSHIP:hover .submenu3{
+    display: block;
+}
+.submenu3>div:hover{
+    background-color: rgb(16, 235, 206);
+}
+.navivech a{
+    text-decoration: none;
+    color: black;
+}
+.exp a{
+    text-decoration: none;
+    color: black;
+}
+.nis a{
+    text-decoration: none;
+    color: black
+}
+.our{
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    padding: 20px;
+}
+.mag{
+    width: 100%;
+    height: 50vh;
+    background-color: aqua;
+}
+.mag h2{
+    position: relative;
+    left: 40px;
+}
+.mag h4{
+    position: absolute;
+    left: 40px;
+    font-weight: bolder;
+}
+.mag p{
+    position: absolute;
+    left: 40px;
+}
+.mag a{
+    position: absolute;
+    left: 40px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px dotted black;
+    
+}
+.spot{
+    width:100%;
+    height: 90vh;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 40px;
+
+  
+}
+.spotl1{
+    width: 30%;
+}
+.spotl1 img{
+   width: 100%;
+
+}
+.spotl1 .button1{
+    background-color: red;
+    color: white;
+}
+
+
+
+
